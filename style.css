@@ -28,6 +28,16 @@ section{
 header, main, footer {
   margin: 0 auto;
 }
+    /* Add CSS to make the menu fixed at the top */
+    #menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #fff; /* You can set the desired background color */
+      z-index: 1000; /* Adjust z-index as needed to ensure it appears above other elements */
+    }
+
 
 header {
   padding: 2em;
